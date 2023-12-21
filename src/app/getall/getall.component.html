@@ -1,0 +1,25 @@
+<h3>Product Details</h3>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>name</th>
+                <th>noofemployees</th>
+                <th>location</th>
+                <th>officetype</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let o of office , let i=index">
+                <td>{{o.id}}</td>
+                <td>{{o.name}}</td>
+                <td>{{o.noofemployees}}</td>
+                <td>{{o.location}}</td>
+                <td>{{o.officetype}}</td>
+
+
+            </tr>
+        </tbody>
+    </table>
+</div> 
